@@ -23,3 +23,32 @@ header {
 #main h1 {
     font-size: 28vh;
 }
+
+.main_box {
+    width: 190vh;
+    height: 50vh;
+    background-color: black;
+    margin: 0 auto;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#main a {
+    font-size: 30px;
+    text-decoration: none;
+    padding: 10px 20px; 
+    border-radius: 20px;
+    border: 2px solid #eee;
+    color: #eee;
+    
+}
+
+#main a:hover {
+    background-color: #eee;
+    color: black;
+    transition: 0.8s ease;
+}
